@@ -31,9 +31,11 @@
   color: orange;
 }
 
-.card-video {
+.card-video video {
   margin: 16px 0;
   background-color: black;
+  width: 100%;
+  height: 240px;
 }
 
 .card-footer {
