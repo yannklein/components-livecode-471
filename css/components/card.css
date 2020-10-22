@@ -1,0 +1,52 @@
+.card-white {
+  background-color: white;
+  margin: 32px;
+  padding: 16px;
+  box-shadow: 0 0 16px rgba(0,0,0,0.3);
+}
+.card-product {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.card-heart {
+  position: absolute;
+  top: 20px;
+  left: 16px;
+  color: red;
+}
+.card-product-img {
+  width: 50%;
+}
+
+.card-product-info {
+  flex-grow: 1;
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-rating {
+  color: orange;
+}
+
+.card-video {
+  margin: 16px 0;
+  background-color: black;
+}
+
+.card-footer {
+  display: flex;
+}
+
+.card-footer img {
+  height: 120px;
+  min-width: 0px;
+  flex-grow: 1;
+  margin-right: 16px;
+}
+
+.card-footer img:last-child {
+  margin-right: 0px;
+}
